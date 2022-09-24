@@ -4,7 +4,7 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "prestamos.step2_datosPropiedad",
+  event: "prestamos.step3_resultadosPrecalificacion",
   //PRODUCTO: enviar los campos disponibles.
   producto: "prestamos", // Va en duro
   prestamo_montoSolicitado: "50000.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
@@ -14,6 +14,9 @@ window.dataLayer.push({
   prestamo_moneda: "PEN", // Código ISO de la moneda. USD para dólares.
   prestamo_cuotaMensual: "1000.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
   prestamo_interesMensual: "18.00", // String. Un numero con maximo 2 decimales separados por punto. (18% = 18.00)
+
+  //PERFIL
+  operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
 
   //USUARIO:
   user_email: "johnalex.cs@gmail.com", //email ingresado en el formulario.
@@ -37,9 +40,6 @@ window.dataLayer.push({
   prop_cercaCerro: "Cerca de un cerro", // "No cerca de un cerro", etc.
   prop_parteCerro: "Parte Plana", // "Parte alta", etc.
   prop_area: "240.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
-
-  //PERFIL
-  operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
 
   //RESULTADO: el enviarse exitosamente este form.
   resultado: "pre_califica", //Respuesta/resultado al enviar el formulario, no_propiedad, no_cobertura, error_confirmacion .etc
