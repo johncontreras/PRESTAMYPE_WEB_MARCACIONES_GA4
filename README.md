@@ -18,7 +18,7 @@ En el código del sitio se tiene desplegado directamente los scripts de Google A
 | 01 | --                  | --               | [Google Tag Manager](/01-%20Google_Tag_Manager.html)                     |
 | 02 | --                  | --               | [Eventos Globales](/02-%20Eventos%20Globales/)                             |
 | 03 | Todos               | Todos            | [Registro y Login](/03-%20Registro%20y%20Login/)                             |
-| 04 | Prestamos           | Publica y Privada| [Prestamos - Publica y Plataforma]()              |
+| 04 | Prestamos           | Publica y Privada| [Prestamos - Publica y Plataforma](/04-%20Prestamos%20-%20Zona%20Publica%20y%20Privada/)              |
 | 05 | Invertir Prestamos  | Publica          | [Invertir Prestamos - Publica](/05-%20Inversion%20Prestamos%20-%20Zona%20Publica/)  |
 | 06 | Invertir Prestamos  | Privada          | [Invertir Prestamos - PLataforma](/06-%20Inversion%20Prestamos%20-%20Zona%20Privada/) |
 | 07 | Factoring           | Publica          | [Factoring - Publica](/07-%20Factoring%20-%20Zona%20Publica/)                         |
