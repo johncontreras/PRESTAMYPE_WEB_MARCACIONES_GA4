@@ -15,6 +15,9 @@ window.dataLayer.push({
   prestamo_cuotaMensual: "1000.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
   prestamo_interesMensual: "18.00", // String. Un numero con maximo 2 decimales separados por punto. (18% = 18.00)
 
+  //PERFIL
+  operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
+  
   //USUARIO:
   user_email: "johnalex.cs@gmail.com", //email ingresado en el formulario.
   user_tipoDocumento: "DNI",
@@ -37,7 +40,5 @@ window.dataLayer.push({
   prop_cercaCerro: "Cerca de un cerro", // "No cerca de un cerro", etc.
   prop_parteCerro: "Parte Plana", // "Parte alta", etc.
   prop_area: "240.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
-
-  //PERFIL
-  operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
+ 
 });
