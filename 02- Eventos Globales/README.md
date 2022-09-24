@@ -1,7 +1,7 @@
 ## Eventos Globales
-
+****************************************************************
 ### Evento: [virtualPageView](/02-%20Eventos%20Globales/event%20virtualPageView.js)
-### Ruta:
+#### Ruta:
 Global: todoas las zonas, todos los sitios.
 
 #### Objetivo: 
@@ -11,9 +11,9 @@ Necesario para medir las páginas vistas mediante Google Tag Manager y enviar di
 * Cada vez que haya un cambio en la URL.
 * Cada vez que se muestra  un modal, dicho modal debe tener su propia página virtual.
 
-
+****************************************************************
 ### Evento: [prestamype.formError](/02-%20Eventos%20Globales/event%20prestamype.formError.js)
-### Ruta:
+#### Ruta:
 Global: todoas las zonas, todos los sitios.
 
 #### Objetivo: 
