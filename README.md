@@ -16,7 +16,7 @@ En el código del sitio se tiene desplegado directamente los scripts de Google A
 |Nº  | Producto            | Zona             | Marcaciones                                                             |
 | -- | :-----------------: |:----------------:|:-----------------------------------------------------------------------:|
 | 01 | --                  | --               | [Google Tag Manager](/01-%20Google_Tag_Manager.html)                     |
-| 02 | --                  | --               | [Scripts Globales](/02-%20Scripts%20Globales/)                             |
+| 02 | --                  | --               | [Eventos Globales](/02-%20Eventos%20Globales/)                             |
 | 03 | Todos               | Todos            | [Registro y Login](/03-%20Registro%20y%20Login/)                             |
 | 04 | Prestamos           | Publica          | [Prestamos - Publica](/04-%20Prestamos%20-%20Zona%20Publica/)              |
 | 05 | Invertir Prestamos  | Publica          | [Invertir Prestamos - Publica](/05-%20Inversion%20Prestamos%20-%20Zona%20Publica/)  |
