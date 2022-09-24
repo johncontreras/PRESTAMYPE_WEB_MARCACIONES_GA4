@@ -21,7 +21,7 @@ window.dataLayer.push({
   user_tipoDocumento: "DNI",
   user_numDocumento: "43582572",
   user_id: "628c18cc9de1a9674ab8fb20", // En caso este disponible. Id único generado a partir de su DNI.
-  lead_id: "628c18cc9de1a9674ab8fb20", // Id del usuario generado desde su email medainte SHA256
+  lead_id: "628c18cc9de1a9674ab8fb20", // Id del usuario generado desde su email medainte SHA256.
   user_telefono1: "946346772",
   user_telefono2: "940663173",
   user_tienePropiedad: "Sí tiene propiedad", // "No tiene propiedad", segun la opción seleccionada.
