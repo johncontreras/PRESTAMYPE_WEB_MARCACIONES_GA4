@@ -41,7 +41,7 @@ window.dataLayer.push({
   //PERFIL
   operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
 
-  //RESULTADO: el enviarse exitosamente este form
+  //RESULTADO: el enviarse exitosamente este form.
   resultado: "pre_califica", //Respuesta/resultado al enviar el formulario, no_propiedad, no_cobertura, error_confirmacion .etc
   operacion_id: "xyz123", // Código único generado al guardar exisosamente el registro.
 });
