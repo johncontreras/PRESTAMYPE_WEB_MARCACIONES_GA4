@@ -1,7 +1,7 @@
 ## INVERSION en FACTORING en Zona Publica:
 
 ####  Objetivo: 
-  * Medir la cantidad de simulaciones de inversion en factoring en la zona publica.
+  * Medir la cantidad de simulaciones de inversion en factoring en la zona publica
 
 ####  Ruta:
 * /invertir-factoring 
