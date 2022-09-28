@@ -1,7 +1,7 @@
 //Producto: Factoring
 //Perfil: Empresario
 //Ruta: /factoring
-//Disparador: Click en el botón "Vender Facturas...
+//Disparador: Al mostrarse el resultado de la simulacion
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({

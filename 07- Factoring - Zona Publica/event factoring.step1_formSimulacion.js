@@ -1,7 +1,7 @@
 //Producto: Factoring
 //Perfil: Empresario
 //Ruta: /factoring
-//Disparador: Al enviarse exitosamente el formulario de simulación
+//Disparador: Al llear el form con datos validos y dar click en el boton Simular
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({

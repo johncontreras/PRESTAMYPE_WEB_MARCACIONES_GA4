@@ -1,6 +1,6 @@
 //Producto: Inversion
 //Ruta: /invertir-factoring
-//Disparador: Click en el botón "Registrate"
+//Disparador: Click en el botón "Simular" luego de llenar el form con datos validos
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
