@@ -1,5 +1,10 @@
 ## LOGIN:
 
+***********************************
+## OBSERVACIONES:
+Seguir las recomendaciones generales de **heredar los valores de los parametros de eventos anteriores**, en especial para los eventos de login y registro. [Ver Observaciones Generales](/README.md)
+********************************
+
 ### Evento: [login](/03-%20Registro%20y%20Login/event%20login.js)
 ![](/03-%20Registro%20y%20Login/images/login.png)
 ####  Ruta:

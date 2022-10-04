@@ -1,4 +1,12 @@
 ## EVENTOS GLOBALES:
+***********************************
+## OBSERVACIONES:
+1.  Falta el nombre del endpoint en el evento de [prestamype.formError](/02-%20Eventos%20Globales/event%20prestamype.formError.js)
+```
+Ejemplo:
+    error_endpoint: "actualizar-datos",
+```
+********************************
 
 ### Evento: [virtualPageView](/02-%20Eventos%20Globales/event%20virtualPageView.js)
 ####  Ruta:

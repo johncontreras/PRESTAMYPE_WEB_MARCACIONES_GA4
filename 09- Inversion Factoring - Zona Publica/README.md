@@ -1,5 +1,20 @@
 ## INVERSION en FACTORING en Zona Publica:
 
+***********************************
+## OBSERVACIONES:
+1.  Los eventos se están repitiendo: nombre de eventos y parámetros con los eventos de [Factoring en la Zona Publica](/07-%20Factoring%20-%20Zona%20Publica/)
+```
+  Ejemplo: 
+    nombre de evento DICE: factoring.step1_formSimulacion
+    nombre de evento DEBE DECIR: inversionFactoring.step1_formSimulacion
+```
+2.  No se está disparando el evento de final de este flujo, que es cuando se muestra el resultado de la simulación.
+```
+    evento: inversionFactoring.step2_resultadoSimulacion
+```
+
+********************************
+
 ####  Objetivo: 
   * Medir la cantidad de simulaciones de inversion en factoring en la zona publica
 
