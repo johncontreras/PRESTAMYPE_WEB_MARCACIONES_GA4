@@ -1,6 +1,9 @@
 //Producto: Inversion
 //Ruta: /app/inversionista/oportunidades
-//Disparador: Cuando se confirma el cambio exitoso de inversión.
+//Disparador: Cuando se confirma el cambio de inversión exitosamente.
+
+//IMPORTANTE: Es importante que esta evento se dispare DESPUES del evento: inversionFactoring.step4_cambiarInversion
+
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
@@ -23,7 +26,7 @@ window.dataLayer.push({
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
   //Oportunidad: Datos del cambio en la inversion.
-  subasta_codigo: "l7yz6pqt-1", // Agregar -1 cuando es la primera reinversión confirmada. En caso de la segunda reinversion se agregaría -2 (l7yz6pqt-2) y así sucesivamente.
+  subasta_codigo: "l7yz6pqt-1", // Agregar dinámicamente la cadena -{{n}} al final del código, donde n es un numero correlativo. Ejemplo: agregar -1 cuando es la primera reinversión exitosa. En caso de la segunda reinversion se agregaría -2 (l7yz6pqt-2) y así sucesivamente.
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
   riesgo: "C", //String. Riesgo asignado a la subasta.
