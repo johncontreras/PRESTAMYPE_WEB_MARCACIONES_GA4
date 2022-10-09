@@ -22,8 +22,8 @@ window.dataLayer.push({
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
-  //Oportunidad: Datos de la inversion que se eliminará.
-  subasta_codigo: "l7yz6pqt",
+  //Oportunidad: Datos del cambio en la inversion.
+  subasta_codigo: "l7yz6pqt-1", // Agregar -1 cuando es la primera reinversión confirmada. En caso de la segunda reinversion se agregaría -2 y así sucesivamente.
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
   riesgo: "C", //String. Riesgo asignado a la subasta.
@@ -32,9 +32,9 @@ window.dataLayer.push({
   pago_fecha: "27/07/2022", // String. Fecha de pago.
   pago_diasAnticipacion: "31", //Entero. Número de días restantes hasta la fecha de pago.
 
-  //Inversion: Datos de la inversion que se eliminará.
+  //Inversion: Datos del cambio en la inversion.
   inversion_monto: "9000.00", //String. Monto ingresao a invertir. Maximo dos decimales.
   inversion_moneda: "PEN",
-  inversion_id: "xyz123", // String. Id de la transacción.
+  inversion_id: "xyz123", // String. Id de la transacción. Es importante que sea único por cada operacion. 
   isCompraTotal: "true", //Booleano. Si el usuario marcó el checkbox de Compra total.
 });
