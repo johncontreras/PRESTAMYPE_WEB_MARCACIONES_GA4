@@ -1,6 +1,6 @@
 //Producto: Inversion
 //Ruta: /app/inversionista/oportunidades
-//Disparador: Click en el botón "Realizar Inversion" luego de ingresar el monto a invertir.
+//Disparador: Cuando se confirma el cambio exitoso de inversión.
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
@@ -22,7 +22,7 @@ window.dataLayer.push({
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
-  //Oportunidad: Datos de la invversion ya realizada
+  //Oportunidad: Datos de la inversion que se eliminará.
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
@@ -32,7 +32,7 @@ window.dataLayer.push({
   pago_fecha: "27/07/2022", // String. Fecha de pago.
   pago_diasAnticipacion: "31", //Entero. Número de días restantes hasta la fecha de pago.
 
-  //Inversion: Datos de la inversion ya realizada
+  //Inversion: Datos de la inversion que se eliminará.
   inversion_monto: "9000.00", //String. Monto ingresao a invertir. Maximo dos decimales.
   inversion_moneda: "PEN",
   inversion_id: "xyz123", // String. Id de la transacción.
