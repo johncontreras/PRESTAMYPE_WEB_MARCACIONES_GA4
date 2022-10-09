@@ -4,7 +4,7 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "inversionFactoring.step4_cambiarInversion",
+  event: "inversionFactoring.step5_confirmarcambioInversion",
   //PRODUCTO:
   producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
   producto_tipo: "factoring", // Tipo de producto o variante seleccionada previamente en el cotizador
