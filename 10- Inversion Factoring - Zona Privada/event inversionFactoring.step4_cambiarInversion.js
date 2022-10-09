@@ -2,6 +2,8 @@
 //Ruta: /app/inversionista/oportunidades
 //Disparador: Cuando se confirma el cambio exitoso de inversión.
 
+//IMPORTANTE: Es importante que esta evento se dispare ANTES del evento: inversionFactoring.step5_confirmarcambioInversion
+
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "inversionFactoring.step4_cambiarInversion",
@@ -35,6 +37,6 @@ window.dataLayer.push({
   //Inversion: Datos de la inversion que se eliminará.
   inversion_monto: "9000.00", //String. Monto ingresao a invertir. Maximo dos decimales.
   inversion_moneda: "PEN",
-  inversion_id: "xyz123", // String. Id de la transacción.
+  inversion_id: "xyz123", //String. Id de la transacción. Es importante que sea único por cada operacion.
   isCompraTotal: "true", //Booleano. Si el usuario marcó el checkbox de Compra total.
 });
