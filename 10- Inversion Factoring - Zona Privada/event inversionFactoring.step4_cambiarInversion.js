@@ -4,7 +4,7 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "inversionFactoring.step3_confirmacionInversion",
+  event: "inversionFactoring.step4_cambiarInversion",
   //PRODUCTO:
   producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
   producto_tipo: "factoring", // Tipo de producto o variante seleccionada previamente en el cotizador
@@ -22,7 +22,7 @@ window.dataLayer.push({
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
-  //Oportunidad:
+  //Oportunidad: Datos de la invversion ya realizada
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
@@ -32,7 +32,7 @@ window.dataLayer.push({
   pago_fecha: "27/07/2022", // String. Fecha de pago.
   pago_diasAnticipacion: "31", //Entero. Número de días restantes hasta la fecha de pago.
 
-  //Inversion
+  //Inversion: Datos de la inversion ya realizada
   inversion_monto: "9000.00", //String. Monto ingresao a invertir. Maximo dos decimales.
   inversion_moneda: "PEN",
   inversion_id: "xyz123", // String. Id de la transacción.
