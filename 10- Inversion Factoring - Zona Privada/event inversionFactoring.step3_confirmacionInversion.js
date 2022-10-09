@@ -17,7 +17,7 @@ window.dataLayer.push({
   //PERFIL
   operacion_perfil: "Inversionista", // 0 "Inversionista", encaso esté disponible esta información.
 
-  //INSTITUCIONAL
+  //INSTITUCIONAL o Persona Natural
   operacion_perfilTipo: "Institucional", //Persona Natural o Institucional
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
