@@ -17,6 +17,11 @@ window.dataLayer.push({
   //PERFIL
   operacion_perfil: "Inversionista", // 0 "Inversionista", encaso esté disponible esta información.
 
+  //INSTITUCIONAL
+  operacion_perfilTipo: "Institucional", //Persona Natural o Institucional
+  operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
+  operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
+
   //Oportunidad:
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
