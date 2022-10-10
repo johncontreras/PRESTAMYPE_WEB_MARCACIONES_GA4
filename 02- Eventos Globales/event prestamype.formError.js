@@ -1,5 +1,8 @@
 //Ruta: En todo el sitio
 //Disparador: Al ocurrir un error al enviar un formulario (incluyendo calculadoras/cotizadores/simuladores)
+// Este evento se diferencia del evento prestamype.modales en lo siguiente:
+// prestamype.formError es para mensajes debido a errores del sistema (no dependen ni son causados por acciones u omisiones del usuario). 
+// prestamype.modales es para mensajes debido a acciones u omisiones directas del usuario (no involucra errores del sistema.). 
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
