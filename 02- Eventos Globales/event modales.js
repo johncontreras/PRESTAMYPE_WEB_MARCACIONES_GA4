@@ -1,4 +1,7 @@
 //Disparador: Cada vez que se muestre un modal con un mensaje para el usuario.
+//Este evento se diferencia del evento prestamype.formError en lo siguiente:
+// prestamype.formError es para mensajes debido a errores del sistema (no dependen ni son causados por acciones u omisiones del usuario). 
+// prestamype.modales es para mensajes debido a acciones u omisiones directas del usuario (no involucra errores del sistema.). 
 //Ruta: Zona Privda /app/
 
 window.dataLayer = window.dataLayer || [];
