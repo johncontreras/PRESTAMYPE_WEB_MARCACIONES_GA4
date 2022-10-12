@@ -26,6 +26,7 @@ window.dataLayer.push({
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
   //Oportunidad: Datos del cambio en la inversion.
+  empresa_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt-1", // Agregar dinámicamente la cadena -{{n}} al final del código, donde n es un numero correlativo. Ejemplo: agregar -1 cuando es la primera reinversión exitosa. En caso de la segunda reinversion se agregaría -2 (l7yz6pqt-2) y así sucesivamente.
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
