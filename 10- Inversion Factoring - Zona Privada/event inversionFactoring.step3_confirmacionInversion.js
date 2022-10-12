@@ -23,6 +23,7 @@ window.dataLayer.push({
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
   //Oportunidad:
+  empresa_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
