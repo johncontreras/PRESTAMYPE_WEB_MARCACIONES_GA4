@@ -5,7 +5,7 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "factoring.step3_confirmacionFactoring",
-  
+
   //PRODUCTO:
   producto: "factoring",
 
