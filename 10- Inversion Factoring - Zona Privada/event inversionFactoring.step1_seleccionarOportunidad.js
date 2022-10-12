@@ -19,13 +19,15 @@ window.dataLayer.push({
 
   //INSTITUCIONAL o Persona Natural
   operacion_perfilTipo: "Institucional", //Persona Natural o Institucional
+  operacion_perfilCategoria: "VIP",
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
   //Oportunidad:
-  empresa_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
+  cliente_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
+  subasta_descuento: "Desde 11% hasta 12%",
   subasta_moneda: "PEN",
   riesgo_cliente: "C", //String. Riesgo asignado a la subasta.
   rendimiento: "1.35", //String. Rendimiento/TIR. Máximo dos decimales.
