@@ -30,6 +30,8 @@ window.dataLayer.push({
   cliente_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt-1", // Agregar dinámicamente la cadena -{{n}} al final del código, donde n es un numero correlativo. Ejemplo: agregar -1 cuando es la primera reinversión exitosa. En caso de la segunda reinversion se agregaría -2 (l7yz6pqt-2) y así sucesivamente.
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
+  subasta_descuento: "Desde 11% hasta 12%",
+
   subasta_moneda: "PEN",
   riesgo: "C", //String. Riesgo asignado a la subasta.
   rendimiento: "1.35", //String. Rendimiento/TIR. Máximo dos decimales.(1.35% = 1.35)
