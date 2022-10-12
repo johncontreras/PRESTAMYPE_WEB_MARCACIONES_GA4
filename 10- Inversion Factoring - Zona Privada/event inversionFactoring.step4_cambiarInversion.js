@@ -29,6 +29,8 @@ window.dataLayer.push({
   cliente_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt", // Si previamente se hubieran realizado dos cambios de inversion exitosos, este código sería l7yz6pqt-2 (tendría agregado -2 al final del código)
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
+  subasta_descuento: "Desde 11% hasta 12%",
+
   subasta_moneda: "PEN",
   riesgo: "C", //String. Riesgo asignado a la subasta.
   rendimiento: "1.35", //String. Rendimiento/TIR. Máximo dos decimales.(1.35% = 1.35)
