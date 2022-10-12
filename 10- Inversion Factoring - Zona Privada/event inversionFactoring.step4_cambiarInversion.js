@@ -21,11 +21,12 @@ window.dataLayer.push({
 
   //INSTITUCIONAL o Persona Natural
   operacion_perfilTipo: "Institucional", //Persona Natural o Institucional
+  operacion_perfilCategoria: "VIP",
   operacion_perfilRuc: "20984676233", //RUC. solo en caso de perfil Institucional
   operacion_perfilEmpresa: "TALENTO S.A.", //Razon Social de la empresa. solo en caso de perfil Institucional
 
   //Oportunidad: Datos de la inversion que se eliminará.
-  empresa_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
+  cliente_nombre: "CONSTRUCTORA INARCO PERU S.A.C.", //Nomre del cliente (organizacion que vende Factura)
   subasta_codigo: "l7yz6pqt", // Si previamente se hubieran realizado dos cambios de inversion exitosos, este código sería l7yz6pqt-2 (tendría agregado -2 al final del código)
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_moneda: "PEN",
