@@ -17,9 +17,9 @@ window.dataLayer.push({
   operacion_perfil: "Empresario", // 0 "Inversionista", encaso esté disponible esta información.
   
   //EMPRESA:
-  empresa_propiaId: "2019863245", //Ruc de la empresa propia seleccionada
-  empresa_clienteId: "2019863245", //Ruc de la empresa cliente seleccionada
-  empresa_nombre: "CONSTRUCTORA INARCO PERU S.A.C.",
+  organization_id: "628c18cc9de1a9674ab8fb20628c18cc9de1a9674ab8fb20", //RUC del Proveedor.en SHA256
+  organization_client_id: "428dfgdfgc9de1a9674ab8fb20as5f5t1d2se9", // RUC del cliente del proveedor. em SHA256
+
 
   //FACTURA:
   factoring_moneda: "PEN",
