@@ -28,7 +28,6 @@ window.dataLayer.push({
   subasta_codigo: "l7yz6pqt",
   subasta_modelo: "velocidad", // String: Modelo seleccionado de la subasta.
   subasta_descuento: "Desde 11% hasta 12%",
-
   subasta_moneda: "PEN",
   riesgo: "C", //String. Riesgo asignado a la subasta.
   rendimiento: "1.35", //String. Rendimiento/TIR. Máximo dos decimales.
