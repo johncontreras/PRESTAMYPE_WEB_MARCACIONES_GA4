@@ -8,8 +8,8 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "inversionFactoring.step4_cambiarInversion",
   //PRODUCTO:
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
-  producto_tipo: "factoring", // Tipo de producto o variante seleccionada previamente en el cotizador
+  producto: "factoring", // Producto desde cuyo cotizador se inicia el login.
+  producto_tipo: "inversion", // Tipo de producto o variante seleccionada previamente en el cotizador
 
   //USUARIO:
   user_id: "628c18cc9de1a9674ab8fb20", //En caso este disponible. Id único generado a partir de su DNI.
