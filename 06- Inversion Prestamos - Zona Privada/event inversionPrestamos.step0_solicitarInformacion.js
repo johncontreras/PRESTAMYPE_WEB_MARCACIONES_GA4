@@ -6,8 +6,8 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "inversionPrestamos.step0_solicitarInformacion",
   //PRODUCTO:
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
-  producto_tipo: "prestamos garantía hipotecaria", // Tipo de producto o variante seleccionada previamente en el cotizador
+  producto: "garantia_hipotecaria", // Producto desde cuyo cotizador se inicia el login.
+  producto_tipo: "prestamos", // Tipo de producto o variante seleccionada previamente en el cotizador
   inversion_moneda: "PEN",
   inversion_monto: "15000.00", //String. Monto de factura con dos decimales separados por un punto.
   inversion_montoRecibir: "685.00", //String. Monto a recibir con dos decimales separados por un punto.
