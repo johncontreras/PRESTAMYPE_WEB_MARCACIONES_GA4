@@ -7,8 +7,8 @@ window.dataLayer.push({
   event: "inversionFactoring.step0_iniciarSimulacion",
   
   //PRODUCTO:
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
-  producto_tipo: "factoring", // Tipo de producto o variante seleccionada previamente en el cotizador
+  producto: "factoring", // Producto desde cuyo cotizador se inicia el login.
+  producto_tipo: "prestamos", // Tipo de producto o variante seleccionada previamente en el cotizador
 
   //PERFIL:
   operacion_perfil: "Inversionista", // 0 "Inversionista", encaso esté disponible esta información.
