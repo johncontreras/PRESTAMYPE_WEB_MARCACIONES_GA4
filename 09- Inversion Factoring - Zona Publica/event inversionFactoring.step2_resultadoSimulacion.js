@@ -6,8 +6,8 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "inversionFactoring.step2_resultadoSimulacion",
   //PRODUCTO:
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
-  producto_tipo: "factoring", // Tipo de producto o variante seleccionada previamente en el cotizador
+  producto: "factoring", // Producto desde cuyo cotizador se inicia el login.
+  producto_tipo: "prestamos", // Tipo de producto o variante seleccionada previamente en el cotizador
   inversion_moneda: "PEN",
   inversion_monto: "15000.00", //String. Monto de factura con dos decimales separados por un punto.
   inversion_montoRecibir: "685.00", //String. Ganancia antes de comision e impuestos.
