@@ -17,5 +17,5 @@ window.dataLayer.push({
   visita_tipo: "logueado", //logueado: para usuarios son sesion inicida en plataforma. "no logueado": para usuarios sin sesion iniciada.
   user_inversiones: 2, //Número entero. Número de inversiones previas realizadas.
   user_subastas:0,//Número entero. Número de subastas previas realizadas.
-  user_recurrente: true, //Booleano: Si tiene  operaciones (inversiones o subastas) previas: true, si no tiene operaciones previas: false
+  user_recurrente: true, //Booleano: Si tiene  operaciones (inversiones o subastas) previas true, si no tiene operaciones previas false
 });
