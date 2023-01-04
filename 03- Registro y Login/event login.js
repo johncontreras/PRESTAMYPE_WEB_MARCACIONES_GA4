@@ -4,7 +4,7 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "login",
   //PRODUCTO
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el login.
+  producto: "factoring", // Producto desde cuyo cotizador se inicia el login.
   producto_tipo: "prestamos", // Tipo de producto o variante seleccionada previamente en el cotizador
 
   //PERFIL:
