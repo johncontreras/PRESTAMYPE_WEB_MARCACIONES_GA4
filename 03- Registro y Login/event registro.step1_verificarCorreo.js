@@ -6,7 +6,7 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "registro.step1_verificarCorreo",
   //PRODUCTO:
-  producto: "inversion", // Producto desde cuyo cotizador se inicia el registro.
+  producto: "factoring", // Producto desde cuyo cotizador se inicia el registro.
   producto_tipo: "prestamos", // Tipo de producto o variante seleccionada previamente en el cotizador
 
   //PERFIL
