@@ -6,7 +6,8 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "prestamos.step3_resultadosPrecalificacion",
   //PRODUCTO: enviar los campos disponibles.
-  producto: "prestamos", // Va en duro
+  producto: "garantia_hipotecaria", // Va en duro
+  producto_tipo: "prestamos",
   prestamo_montoSolicitado: "50000.00", // String. Monto de cuota mensual cotizado. Un numero con maximo dos decimales separados por punto.
   prestamo_motivo: "Capital de trabajo", //Construcción, Consolidar Deudas, Traslado de Deuda
   prestamo_modoPago: "Cuota Fija", //Solo intereses, Prestamo puentes, etc
