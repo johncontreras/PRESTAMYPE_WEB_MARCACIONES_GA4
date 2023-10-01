@@ -13,3 +13,5 @@ window.dataLayer.push({
   error_mensajeUsuario: "No podemos verificar el númeno de su DNI. Intente más tarde", //mesaje mostrado al usuario, en caso se muestre alguno.
   error_descripcionTecnica: "api/reniec/validation", // Descripcion tecnica del error, en caso se muestre alguno.
 });
+
+
